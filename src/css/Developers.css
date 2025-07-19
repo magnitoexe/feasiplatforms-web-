@@ -1,0 +1,51 @@
+.developer-page {
+  background: #0e0e0e;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.developer-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.developer-header .logo {
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.developer-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dev-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.dev-card {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 15px;
+  max-width: 320px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(17, 214, 201, 0.2);
+  transition: all 0.3s ease;
+}
+
+.dev-card h2 {
+  color: #11D6C9;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  color: #aaa;
+}
