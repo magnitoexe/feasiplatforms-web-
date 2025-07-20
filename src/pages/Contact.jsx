@@ -10,7 +10,7 @@ const Contact = () => {
     const email = e.target.email.value;
     const message = e.target.message.value;
 
-    const res = await fetch("https://feasiplatforms-web-backend.onrender.com/admin/messages", {
+    const res = await fetch("https://feasiplatforms-web-backend.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
