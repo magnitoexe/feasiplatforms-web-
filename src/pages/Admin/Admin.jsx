@@ -12,7 +12,7 @@ const Admin = () => {
 
   useEffect(() => {
     if (isLoggedIn) {
-      fetch("http://localhost:5000/admin/messages")
+      fetch("https://feasiplatforms-web-backend.onrender.com/admin/messages")
         .then((res) => res.json())
         .then((data) => setMessages(data))
         .catch((err) => console.error("Fetch error:", err));
