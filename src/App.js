@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Features from "./pages/Features";
 import Contact from "./pages/Contact";
 import Developers from "./pages/Developers"; // Assuming you have a Developers page
+import Admin from "./pages/Admin/Admin";
+import './App.css'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
         <Route path="/features" element={<Features />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/developers" element={<Developers />} />
+        <Route path="/admi1n" element={<Admin/>} />
+
         {/* Add more routes as needed */}
       </Routes>
     </Router>
